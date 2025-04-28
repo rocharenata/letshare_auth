@@ -8,7 +8,7 @@ namespace AuthApi.Models
         [Column("id")]
         public string Id { get; set; } = string.Empty;
 
-        [Column("email")] // correção - O email é o login do usuário
+        [Column("email")] // correção - gitO email é o login do usuário
         public string Email { get; set; } = string.Empty;
 
         [Column("password")]
