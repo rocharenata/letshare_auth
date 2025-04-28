@@ -1,0 +1,37 @@
+﻿# Ignore arquivos de configuração sensíveis
+appsettings.json
+appsettings.*.json
+
+# Ignore arquivos gerados pelo Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore pastas de build
+bin/
+obj/
+
+# Ignore arquivos de log
+*.log
+
+# Ignore arquivos de pacotes
+*.nupkg
+*.snupkg
+
+# Ignore dependências locais
+packages/
+*.DS_Store
+
+# Ignore arquivos do sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore arquivos de cache
+*.swp
+*.lock
+*.tmp
+*.temp

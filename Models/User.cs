@@ -8,8 +8,8 @@ namespace AuthApi.Models
         [Column("id")]
         public string Id { get; set; } = string.Empty;
 
-        [Column("username")]
-        public string? Username { get; set; }
+        [Column("email")] // correção - O email é o login do usuário
+        public string Email { get; set; } = string.Empty;
 
         [Column("password")]
         public string Password { get; set; } = string.Empty;
@@ -18,9 +18,6 @@ namespace AuthApi.Models
         public string Role { get; set; } = string.Empty;
 
         // Tudo abaixo é ignorado no banco:
-
-        [NotMapped]
-        public string? Email { get; set; }
 
         [NotMapped]
         public bool Enabled { get; set; }
