@@ -56,3 +56,4 @@ D:\teste\AuthApi\obj\Debug\net8.0\refint\AuthApi.dll
 D:\teste\AuthApi\obj\Debug\net8.0\AuthApi.pdb
 D:\teste\AuthApi\obj\Debug\net8.0\AuthApi.genruntimeconfig.cache
 D:\teste\AuthApi\obj\Debug\net8.0\ref\AuthApi.dll
+D:\teste\AuthApi\obj\Debug\net8.0\AuthApi.sourcelink.json

@@ -31,7 +31,7 @@ namespace AuthApi.Services
             var claims = new List<Claim>
             {
                 new Claim("userId", user.Id.ToString()),
-                new Claim("username", user.Username ?? string.Empty),
+                new Claim("email", user.Username ?? string.Empty), // Alterado de "username" para "email"
                 new Claim("tenantId", user.TenantId?.ToString() ?? string.Empty),
                 new Claim("role", user.Role ?? string.Empty),
                 new Claim("languageId", user.LanguageId?.ToString() ?? string.Empty),
